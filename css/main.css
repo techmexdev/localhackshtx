@@ -255,14 +255,14 @@ h2 {
 **************************/
 
 #explore {
-  background-color: #C34C39;
-  background-image: url("../images/mac-night.jpeg");
+  background-color: #000;
+  background-image: url("../images/coffee.jpeg");
   background-position: center bottom;
   background-size: contain;
   background-repeat:no-repeat;
   position: relative;
   overflow: hidden;
-  padding: 130px 0 100px;
+  padding: 66px 0 100px;
 }
 
 .watch {
@@ -393,9 +393,9 @@ h2 {
 **************************/
 #event {
   background-color: #33888F;
-  background-image: url("../images/performar-bg.jpg");
+  background-image: url("../images/sponsor-bg.jpg");
   background-position: 50% 0;
-  background-size: contain;
+  background-size: cover;
   position: relative;
   background-repeat: no-repeat;
 }
@@ -462,7 +462,9 @@ h2 {
 **************************/
 
 #about {
+  background-image: url("../images/city.png");
   background-color: #75B46E;
+  background-size: cover;
   position: relative;
   width: 100%;
   display: flex;
@@ -478,8 +480,9 @@ h2 {
 }
 
 .about-content {
+  top: 0;
   width: 50%;
-   background-image: url("../images/about-bg.jpg");
+   /*background-image: url("../images/about-bg.jpg");*/
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
